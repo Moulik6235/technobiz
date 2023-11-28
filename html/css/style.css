@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap');
+*{margin: 0;padding: 0;box-sizing: border-box;}
+h1,h2,h3,h4,h5,h6,p{margin:0px;}
+ul,ol{list-style: none;padding: 0;}
+a{text-decoration: none;}
+body{font-family: 'Titillium Web', sans-serif !important; background-color: #0e0e0e;}
+.gradient-icon{font-size: 37px;background: linear-gradient(to bottom, #2b55d9, #1376df); display: inline-block;border-radius: 50%;width: 66px;  padding: 10px 10px; height: 63px; width: 65px;display: flex;justify-content: center;padding: 14px; margin: 0 auto;}
+.btn{border-radius: 20px; font-size: 15px; padding: 8px 20px;}
+
+.techno-header .navbar{width: 100%; background: #000;}
+.navbar-brand{width: 200px;}
+.navbar-brand img{width: 100%; height: 100%;}
+.techno-header .nav-link{color: #fff !important; padding: 10px 30px !important;}
+.banner{background: url(../images/african-american-it-specialist-in-server-room-e1696860906131.jpg) center/cover; height: 600px; position: relative;}
+.banner .banner-text{text-align: center;position: absolute;top: 33%; color: #fff; width: 50%; margin: 0 auto; left: 25%;}
+.banner-text h1{font-size: 44px; font-weight: 600;}
+.banner-text .primary{color:#2c53d8}
+.banner .btn{border-radius: 20px;padding: 8px 23px; margin-top: 15px;}
+
+.service-block{ color: #fff; position: relative; margin-top: -100px;}
+.service-block .row-text{text-align: center; padding: 30px 0;}
+.row-text .btn{border-radius: 20px; padding: 8px 20px; margin-top: 12px;}
+/* .row{padding: 15px 10px;} */
+.row .box{background-color: #1c1b1b;; border-radius: 25px; padding: 18px; min-height: 300px;}
+.service-block .row .box:hover{background:linear-gradient(to bottom, #062ba6, #0b73e2)}
+.service-block .btn:hover{color: #186edb; background-color: #fff;}
+
+.our-information-block{padding: 80px;}
+.our-information-block .who-we-are-text p span{color: #2c53d8;}
+.our-information-block .who-we-are-text{color: #fff;}
+.our-information-block .who-we-are-text h3{font-size: 30px; font-weight: 600;}
+.our-information-block .gradient-icon{font-size: 20px; height: 50px; width: 50px;}
+.our-information-block .development-text{color: #fff; padding-left: 10px;}
+.our-information-block .information-box .row{padding: 15px 10px;}
+.our-information-block .development-text h3{font-size: 20px;}
+.our-information-block .development-text p{font-size: 15px; color: gray;}
+.our-information-block .information-image{position: relative;}
+.our-information-block .information-image img{width: 100%; border-radius: 10px;}
+.our-information-block .information-image-text{position: absolute; border-radius: 50%; background: #fff; padding: 26px 37px; top: 0px; right: -40px;}
+.our-information-block .information-image-text h2{font-size: 40px; color:#186edb; font-weight: 600;}
+
+.management-block{background: url(../images/team-work-process-marketing-strategy-brainstorming-paperwork.jpg) center/cover; height: 600px; box-shadow: inset 0px 0px 10rem 40rem #00000091; position: relative;}
+.management-block .management-text{text-align: center;position: absolute;top: 33%; color: #fff; width: 50%; margin: 0 auto; left: 25%;}
+.management-block .management-text h3{font-size: 44px; font-weight: 600;}
+.management-block .management-text .btn{border-radius: 20px;padding: 8px 23px; margin-top: 15px;}
+
+.data-block{padding-top: 60px; border-bottom: 1px solid #252323;}
+.data-block .row .data-information{text-align: center; margin-bottom: 25px;}
+.data-block .row .data-information h3{color: #186edb; font-weight: 700; font-size: 45px;}
+.data-block .row .data-information p{color: #fff;}
+
+.partner-block{padding: 80px;}
+.partner-block .partner-block-text{text-align: center; color: #fff; padding: 30px 10px;}
+.partner-block .partner-block-text h3{font-size: 35px; font-weight: 700;}
+.partner-block .card{background: #1c1b1b; border-radius: 20px; padding: 18px; min-height: 300px;}
+.partner-block .card .card-text{text-align: center; color: #fff; padding: 10px 10px;}
+.partner-block .card-text h3{font-size: 20px;}
+.partner-block .card-text p{font-size: 15px;}
+.partner-block .card .gradient-icon{font-size: 25px; height: 55px; width: 55px;}
+.partner-block .card .btn{margin-top: 10px; font-size: 13px;}
+.partner-block .row .card:hover{background:linear-gradient(to bottom, #062ba6, #0b73e2)}
+.partner-block .btn:hover{color: #186edb;background-color: #fff;}
+
+.transformation-block{background: url(../images/african-american-coder-employee-programming-business-code-e1.jpg) center/cover; height: 500px;box-shadow: inset 0px 0px 10rem 40rem #00000091; position: relative;}
+.transformation-block .transformation-text{text-align: center;position: absolute;top: 33%; color: #fff; width: 50%; margin: 0 auto; left: 25%;}
+.transformation-block .transformation-text h3{font-size: 44px; font-weight: 600;}
+.transformation-block .transformation-text p{margin-top: 10px;}
+.transformation-block .transformation-text .btn{border-radius: 20px;padding: 8px 23px; margin-top: 15px;}
+
+.testimonial-block{padding: 80px; background: url(../images/circuit-board-high-tech-technology-background-texture-patter.jpg) center/cover;box-shadow: inset 0px 0px 10rem 40rem #0f0d0de0;; background-repeat: no-repeat;}
+.testimonial-block .testimonial-text{text-align: center; padding: 20px;}
+.testimonial-block .review{background: #1c1b1b; border-radius: 20px; padding: 45px; min-height: 300px;}
+.testimonial-block .testimonial-text p{color:#186edb; padding: 18px 10px;}
+.testimonial-block .testimonial-text h3{color: #fff; padding: 20px 10px; font-weight: 700; font-size: 35px;}
+.testimonial-block .review-image{padding-left: 125px; margin-bottom: 10px;}
+.testimonial-block .review .review-image img {border-radius: 50%; height: 70px; width: 70px; align-items: center;}
+.testimonial-block .review-text{color: #fff; text-align: center;}
+.testimonial-block .review-text span{color: #186edb;}
+
+.footer-block{background: url(../images/840843081452.jpg) center/cover; padding-top: 80px; background-repeat: no-repeat;}
+.footer-block .contact-block p{color: #fff;}
+.footer-block .contact-block  {padding: 10px;}
+.footer-block .contact-logo{width: 200px;}
+.footer-block .navbar-brand img{width: 100%;}
+.footer-block .gradient-icon{font-size: 15px; height: 40px; width: 40px;}
+.footer-block .support-number p{color: #fff;}
+.footer-block .support-number h3{color: #186edb;}
+.footer-block .footer-service h3{color: #fff; font-size: 25px; padding: 14px 0px;}
+.footer-block .footer-service li a {color: #8d8383;}
+.footer-block .footer-service li a:hover{color: #fff;}
+.footer-block .copy-right-block{background: #121111; padding: 25px 25px;}
+.footer-block .copy-right{color:#8d8383;}
+.footer-block .copy-right-block .social-media{color: #fff;}
+
+
+
+@media screen and (min-width:320px) and (max-width:720px) {
+    .gradient-icon {font-size: 30px;height: 50px;width: 50px; padding: 11px;}
+    .banner .banner-text {top: 35%;width: 100%;left: 0%;}
+    .banner .banner-text h1 {font-size: 40px;font-weight: 600;}
+    .banner .banner-text p{font-size: 15px;}
+
+    .service-block{margin-top: 0; padding-top: 20px;}
+
+    .our-information-block{padding: 40px 10px; text-align: center;}
+    .our-information-block .information-image-text{display: none;}
+    .our-information-block .gradient-icon {font-size: 20px;height: 40px;width: 40px;}
+
+    .management-block .management-text{width: 100%; left: 0%; top: 35%;}
+    .management-block .management-text h3{font-size: 30px;}
+    .management-block .management-text p{font-size: 15px;}
+
+    .partner-block{padding: 40px 10px;}
+    .partner-block .card .gradient-icon {font-size: 20px;height: 45px;width: 45px;}
+
+    .transformation-block{height: 600px;}
+    .transformation-block .transformation-text{width: 100%; left: 0%; top: 35%;}
+    .transformation-block .transformation-text h3{font-size: 30px;}
+    .transformation-block .transformation-text p{font-size: 15px;}
+
+    .testimonial-block{padding: 40px 10px;}
+    .testimonial-block .testimonial-text p {padding: 0px 10px;}
+    .testimonial-block .testimonial-text h3 {padding: 5px 10px;font-weight: 600; font-size: 30px;}
+    .testimonial-block .review-image {padding-left: 117px;}
+    .footer-block{padding: 40px 10px;}
+    .footer-block .contact-block p{text-align: center;}
+    .footer-block .footer-service{text-align: center;}
+    .footer-block .support-number{text-align: center;}
+    .footer-block .gradient-icon{font-size: 20px;}
+    .footer-block .copy-right-block{text-align: center;}
+    .footer-block{padding-bottom: 0;}
+}
